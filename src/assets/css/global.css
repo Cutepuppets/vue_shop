@@ -3,6 +3,8 @@ html,body,#app{
     height: 100%;
     margin: 0;
     padding: 0;
+    /* 当宽度小于1366将不会进行响应式伸缩 */
+    min-width: 1366px;
 }
 .el-breadcrumb{
     margin-bottom: 15px;

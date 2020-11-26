@@ -17,6 +17,10 @@ var _Welcome = _interopRequireDefault(require("./components/Welcome.vue"));
 
 var _Users = _interopRequireDefault(require("./components/user/Users.vue"));
 
+var _Rights = _interopRequireDefault(require("./components/power/Rights"));
+
+var _Roles = _interopRequireDefault(require("./components/power/Roles"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 _vue["default"].use(_vueRouter["default"]); //导出路由规则
@@ -39,6 +43,12 @@ var router = new _vueRouter["default"]({
     }, {
       path: '/users',
       component: _Users["default"]
+    }, {
+      path: '/rights',
+      component: _Rights["default"]
+    }, {
+      path: '/roles',
+      component: _Roles["default"]
     }]
   }]
 }); // 挂载路由导航守卫

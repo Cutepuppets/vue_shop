@@ -50,5 +50,13 @@ _vue["default"].use(_elementUi.Pagination);
 
 _vue["default"].use(_elementUi.Dialog);
 
+_vue["default"].use(_elementUi.Tag);
+
+_vue["default"].use(_elementUi.Tree);
+
+_vue["default"].use(_elementUi.Select);
+
+_vue["default"].use(_elementUi.Option);
+
 _vue["default"].prototype.$message = _elementUi.Message;
 _vue["default"].prototype.$confirm = _elementUi.MessageBox.confirm;
