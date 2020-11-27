@@ -17,3 +17,10 @@ html,body,#app{
     margin-top: 15px;
     font-size: 12px;
 }
+/*只设置dropdown会出问题，要两个一起设置高度*/
+.el-cascader__dropdown {
+    height: 200px;
+  }
+.el-cascader-panel {
+    height: 200px;
+}
