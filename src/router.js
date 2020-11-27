@@ -7,6 +7,7 @@ import Users from './components/user/Users.vue'
 import Rights from './components/power/Rights'
 import Roles from './components/power/Roles'
 import Cate from './components/goods/Cate.vue'
+import Params from './components/goods/Params.vue'
 
 Vue.use(VueRouter)
 //导出路由规则
@@ -20,6 +21,8 @@ const router = new VueRouter({
       {path: '/rights',component: Rights},
       {path: '/roles',component: Roles},
       {path: '/categories',component: Cate},
+      {path: '/params',component: Params},
+
 
     ]}
   ]
